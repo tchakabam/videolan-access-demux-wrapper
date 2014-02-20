@@ -5,6 +5,6 @@ A wrapper to easily implement an VideoLAN player so called "access demux module"
 
 Dependencies: POCO lib', STL
 
-Not providing any compilation scripts here. 
-
 If you have questions, send me a mail. Have fun :)
+
+Note: Not providing any compilation scripts right now, but might come up with this in the future for this project.
