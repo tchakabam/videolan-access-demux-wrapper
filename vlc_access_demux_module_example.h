@@ -60,18 +60,12 @@ static void Close( vlc_object_t * );
   
 vlc_module_begin ()
 	set_shortname( N_("CASL") )
-	set_description( N_("CastLabs Adaptive Streaming Library SDK Demo plugin") )
+	set_description( N_("Disparat demo plugin") )
 	set_capability( "access_demux", 120 )
 	set_category( CAT_INPUT )
 	set_subcategory( SUBCAT_INPUT_ACCESS )
 	set_callbacks( Open, Close )
-	add_shortcut("http")
-	add_shortcut("https")
-	add_shortcut("dash")
-	add_shortcut("hls")
-	add_shortcut("hds")
-	add_shortcut("hss")
-	add_shortcut("ssm")
+	//add_shortcut("http") //TODO: add protocol shortcuts here
 vlc_module_end ()
 
 struct demux_sys_t {
